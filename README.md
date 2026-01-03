@@ -15,7 +15,8 @@ python -m venv venv
 pip install django
 
 ### New django project
-django-admin startproject (Project Name)
+django-admin startproject (Project Name) .
+(use "." to setup in current directory)
 
 ### Create app
 python manage.py startapp (App Name)
