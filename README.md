@@ -2,24 +2,25 @@
 Im trying relearn django, since I haven't used it in a year.
 
 # The commands that you need to use on a daily basis 
-- Starting a new project:
 
-## Create Python virtual env 
+## Starting a new project:
+
+### Create Python virtual env 
 ~$  python3 -m venv venv
 
-## Activate virtual env
+### Activate virtual env
 ~$  source venv/bin/activate
 
-## Install django
+### Install django
 ~$  pip install django
 
-## New django project
+### New django project
 ~$  django-admin startproject (Project Name)
 
-## Create app
+### Create app
 ~$  python manage.py startapp (App Name)
 
-## Saving and running project
+### Saving and running project
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
