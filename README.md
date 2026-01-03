@@ -6,19 +6,19 @@ Im trying relearn django, since I haven't used it in a year.
 ## Starting a new project:
 
 ### Create Python virtual env 
-~$  python3 -m venv venv
+python -m venv venv
 
 ### Activate virtual env
-~$  source venv/bin/activate
+.\venv\Scripts\activate    
 
 ### Install django
-~$  pip install django
+pip install django
 
 ### New django project
-~$  django-admin startproject (Project Name)
+django-admin startproject (Project Name)
 
 ### Create app
-~$  python manage.py startapp (App Name)
+python manage.py startapp (App Name)
 
 ### Saving and running project
 python manage.py makemigrations
