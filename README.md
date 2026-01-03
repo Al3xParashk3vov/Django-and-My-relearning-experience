@@ -21,8 +21,8 @@ django-admin startproject (Project Name)
 python manage.py startapp (App Name)
 
 ### Saving and running project
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
-pip freeze > requirements.txt
+python manage.py makemigrations /
+python manage.py migrate /
+python manage.py runserver / 
+pip freeze > requirements.txt / 
 pip install -r requirements
